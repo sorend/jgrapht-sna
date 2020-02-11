@@ -11,5 +11,6 @@ deploy:
   script: "./gradlew publish -Dorg.gradle.internal.publish.checksums.insecure=true"
   on:
     all_branches: true
-#env:
-#  global:
+env:
+  global:
+    secure: "NPKYYNCwQz8gMvQF9v2Hu3QYCQVgf3vIj3z5y7++Aa6XlwqBRnBC7e6HmkjkOBbtL1P5nL4dDSKWFn3gaK1DnKLaeaWx0wiL4bRmPTzEGX/hi6Xl+uUniHQ3JuIFh9ZrYzJ4dpmQ46VGWH0waHySdlwuPNYfswFV1LjqlynYVj6BjtuyGb/M7TdAvgQZJAHOr2tyL+T0Gd+Wntecv6MUJHDL5jKHRokWzw0gvphiNIxd9jtSc0zmvkSHN5CznCK7PdwF/SD2wSINgeCs9tnr8/7s/xY3lt/19UhZkoG3SPot6cUpXSwwa47w6Ij/Dpkes/uqaAz8zM6WGXrTNndllkLVYPsHOaADuvcLEdysARNR/RBGnsaUkWCftOg0tJ9oDxRfuuRYb0urSn8BezMYEHUAiSWZ7xFJxdUShsNKJmBbe35detXOzpP15vsRUZJDGYlYXmkCzbrLI/HOs60Xq8xlnX9ygaeFC6VxWOnWG+9jbtwDOqN72vxPsnFjvV7o7Gl7BmxGL4jN5fBXNxDLz77BmoogPAO1Lx1C3oRgNtl7LnQ67YxBHo1Q7YbdP0VnF1QJYoVK5LHVWwq2KtxXVEa6n3XAadDI0h2Zgb+XCEL0kCNON96WHO3Ps8EuBP5UVNu3mlhVl9LdjLJvd/AAy9Wicc17XZ8HEeBvyIhsDIQ="
