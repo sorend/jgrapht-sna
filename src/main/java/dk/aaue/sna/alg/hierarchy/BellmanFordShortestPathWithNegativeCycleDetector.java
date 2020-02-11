@@ -82,8 +82,7 @@ public class BellmanFordShortestPathWithNegativeCycleDetector<V, E> {
                 double weight = graph.getEdgeWeight(e);
                 if (distance.get(u) + weight < distance.get(v)) {
                     distance.put(v, distance.get(u) + weight);
-                    if (predecessor != null)
-                        predecessor.put(v ,u);
+                    predecessor.put(v ,u);
                 }
             }
         }

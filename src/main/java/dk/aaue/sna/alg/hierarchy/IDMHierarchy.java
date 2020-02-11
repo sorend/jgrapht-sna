@@ -199,7 +199,7 @@ public class IDMHierarchy<V, E> implements CentralityMeasure<V> {
 
             E newEdge = compare > 0 ? directed.addEdge(source, target) : directed.addEdge(target, source);
 
-            if (directed instanceof WeightedGraph && newEdge instanceof DefaultWeightedEdge)
+            if (newEdge instanceof DefaultWeightedEdge)
                 directed.setEdgeWeight(newEdge, w);
         }
 

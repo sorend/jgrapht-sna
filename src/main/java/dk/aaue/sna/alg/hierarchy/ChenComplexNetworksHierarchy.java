@@ -177,6 +177,8 @@ public class ChenComplexNetworksHierarchy<V, E> implements CentralityMeasure<V> 
                 v_l = eigen.getEigenvector(i);
             }
         }
+	if (v_l == null)
+            throw new IllegalArgumentException("v_l not found");
 
         Set<V> s_pos = new HashSet<V>();
         Set<V> s_neg = new HashSet<V>();
