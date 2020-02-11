@@ -2,6 +2,9 @@
 JGraphT, Social Network Analysis addon
 ======================================
 
+!! NOT MAINTAINED -- please note, many of the algorithms here have been implemented in JGraphT since I created
+   the library. Please check out JGraphT latest version before using any of this, thanks !!
+
 This library implements several algorithms used in social network analysis (SNA) on top of
 the JGraphT library [http://www.jgrapht.org/](http://www.jgrapht.org/). JGraphT is a Java library for Graphs. It supports generics, where nodes
 and edges can be of user-defined types. The intention is to support as many SNA-specific algorithms as possible.
